@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Pandey - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Siddharth<span>.</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Siddharth Pandey</span></h1>
+                <p>A passionate Full-Stack Developer focused on creating impactful web solutions with modern technologies.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn" style="background: transparent; color: var(--primary); border: 2px solid var(--primary);">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#6C63FF;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#4A44C6;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <path fill="url(#grad1)" d="M83.8,122.9c45.3-62.9,129.3-85.2,198.9-63.8c69.6,21.4,116.8,83.9,128.9,154.8c12.1,70.9-11.2,150.2-68.4,195.5
+                c-57.2,45.3-148.3,56.6-218.9,30.3C53.7,393.4,9.1,318.8,6.9,239.4C4.7,160,44.9,76,83.8,122.9z"/>
+                <circle fill="#FF6584" cx="350" cy="180" r="30"/>
+                <path fill="#FFFFFF" d="M250,280c-55.1,0-100,44.9-100,100h200C350,324.9,305.1,280,250,280z"/>
+                <circle fill="#FFFFFF" cx="250" cy="250" r="80"/>
+                <circle fill="#2A2D3E" cx="230" cy="240" r="10"/>
+                <circle fill="#2A2D3E" cx="270" cy="240" r="10"/>
+                <path fill="none" stroke="#2A2D3E" stroke-width="5" stroke-linecap="round" d="M220,290c0,0,10,20,30,20s30-20,30-20"/>
+            </svg>
+        </div>
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="port.jpeg" alt="Siddharth Pandey">
+                </div>
+                <div class="about-text">
+                    <h3>Full-Stack Web Developer</h3>
+                    <p>My name is Siddharth Pandey, and I'm a Full-Stack Web Developer with a Bachelor's degree in Computer Applications (BCA) from Axis College, Kanpur. I enjoy creating practical, responsive, and user-friendly web platforms — especially in the field of education and e-learning.</p>
+                    <p>I believe in "Success through Consistency." My focus is on improving 1% every day — whether it's coding, problem-solving, or web design. I'm committed to building something valuable with every project I create.</p>
+                    <div style="margin-top: 30px;">
+                        <a href="#contact" class="btn">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript, React.js with a focus on responsive design and user experience.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>PHP, Node.js (basic) for building robust server-side applications and APIs.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Database Management</h3>
+                    <p>MySQL for efficient data storage, retrieval, and management in web applications.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools & Technologies</h3>
+                    <p>Git, VS Code, XAMPP, Responsive Design, SEO Optimization, Basic Animation (CSS/JS).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="animation">Animation</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Learn with NIOS">
+                    </div>
+                    <div class="project-content">
+                        <h3>Learn with NIOS</h3>
+                        <p>An educational web platform for NIOS students with notes, admission guidance, and exam preparation support.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://learnwithnios.com" class="project-link">Live Demo</a>
+                            <a href="https://learnwithnios.in" class="project-link">Alternative</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="animation">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" alt="Animated Login Page">
+                    </div>
+                    <div class="project-content">
+                        <h3>Animated Login/Logout Page</h3>
+                        <p>A beautifully animated authentication system with smooth transitions and interactive elements.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://loginprojectmy.netlify.app" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="animation">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Glowing Heart Animation">
+                    </div>
+                    <div class="project-content">
+                        <h3>Glowing Heart Animation</h3>
+                        <p>A CSS-based animation featuring a glowing heart with gradient effects and keyframe animations.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">Animation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://staranimation123.netlify.app" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Student Form System">
+                    </div>
+                    <div class="project-content">
+                        <h3>User Management System</h3>
+                        <p>A complete CRUD application for managing user data with PHP and MySQL backend.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">CRUD</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://crudop.fwh.is/" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="other">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" alt="Portfolio Website">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive portfolio website showcasing projects and skills with modern design and animations.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://myportfoliosiddharth.netlify.app" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project-card" data-category="animation">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1535016120720-40c646be5580?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Cinematic Trailer Page">
+                    </div>
+                    <div class="project-content">
+                        <h3>Cinematic Trailer Page</h3>
+                        <p>An immersive cinematic experience with animated layouts and engaging visual effects.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Animation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Code</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>siddharthpandey973@gmail.com</p>
+                             Ph No.+91 6306540298
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Kanpur, Uttar Pradesh, India</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-share-alt"></i>
+                        <h3>Social Profiles</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/siddharthpandey973-droid" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://leetcode.com/u/5nbRst1uU9/" class="social-link"><i class="fas fa-code"></i></a>
+                            <a href="https://www.hackerrank.com/profile/siddharthpande11" class="social-link"><i class="fab fa-hackerrank"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">Siddharth<span>.</span></a>
+                    <p>Full-Stack Developer passionate about creating impactful web solutions.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/siddharthpandey973-droid" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://leetcode.com/u/5nbRst1uU9/" class="social-link"><i class="fas fa-code"></i></a>
+                        <a href="https://www.hackerrank.com/profile/siddharthpande11" class="social-link"><i class="fab fa-hackerrank"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Skills</h4>
+                    <ul>
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">Backend Development</a></li>
+                        <li><a href="#">Database Management</a></li>
+                        <li><a href="#">Responsive Design</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Siddharth Pandey. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
